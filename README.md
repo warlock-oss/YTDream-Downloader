@@ -1,3 +1,13 @@
+<div align="center">
+
+# YTDream Downloader — Echidna Edition
+
+<img src="assets/images/echidna.png" alt="YTDream Downloader Echidna Mascot" width="220">
+
+**A desktop video downloader built with Python and PySide6.**
+
+</div>
+
 # YTDream Downloader — Echidna Edition
 
 A Windows desktop media downloader built with Python, PySide6, and yt-dlp. Created by **warlock-oss**.
