@@ -12,6 +12,12 @@
 
 A Windows desktop media downloader built with Python, PySide6, and yt-dlp. Created by **warlock-oss**.
 
+## Application Preview
+
+<div align="center">
+  <img src="assets/images/screenshot.png" alt="YTDream Downloader Application Preview" width="800">
+</div>
+
 ## Features
 - Gothic-inspired dark UI with equal-width mascot and feature panels.
 - Video downloads, MP3 audio extraction, subtitle options, playlist support, and a sequential task queue.
