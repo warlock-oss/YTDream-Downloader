@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+build/
+dist/
+
+# Local secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

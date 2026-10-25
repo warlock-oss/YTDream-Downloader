@@ -1,0 +1,7 @@
+Perbaikan build EXE
+
+Penyebab: src\ytdream\main.py menggunakan relative import, sehingga tidak boleh dijadikan entry point PyInstaller secara langsung.
+
+Perbaikan: launcher.py mengimpor ytdream.main sebagai paket; scripts\build.bat sekarang membangun launcher.py.
+
+Cara memakai: jika .venv proyek lama masih tersedia, cukup ganti/tambahkan launcher.py dan ganti scripts\build.bat dengan versi dari ZIP ini, lalu jalankan build.bat. Tidak perlu setup.bat ulang kecuali .venv hilang atau dependensi bermasalah.

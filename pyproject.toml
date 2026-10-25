@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytdream-downloader"
+version = "0.2.0"
+description = "YTDream Downloader — Echidna Edition"
+requires-python = ">=3.10,<3.14"
+dependencies = ["PySide6>=6.7,<7", "yt-dlp[default]>=2025.1.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-qt>=4.4", "pyinstaller>=6.10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
